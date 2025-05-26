@@ -35,3 +35,24 @@ console.log(typeof undefinedVariable); // undefined
 let nullVariable = null;
 console.log("Null Variable:", nullVariable);
 console.log(typeof nullVariable); // object (this is a known bug in JavaScript)
+
+
+//Practical number 2
+
+// Ask the user for their name
+let userName = prompt("What is your name?");
+
+// Ask the user for their age
+let userAge = prompt("How old are you?");
+
+// Convert userAge from string to number (important for math)
+userAge = Number(userAge);
+
+// Get the current year
+let currentYear = new Date().getFullYear();
+
+// Calculate the year of birth
+let yearOfBirth = currentYear - userAge;
+
+// Show the result to the user
+alert("Hello " + userName + "! You were born in the year " + yearOfBirth + ".");
