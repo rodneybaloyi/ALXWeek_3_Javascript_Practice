@@ -1,6 +1,6 @@
 // 1. Your name as a string
 let name = "Rodney Baloyi";
-console.log("Name:", name);
+console.log('Name:', name);
 console.log(typeof name); // string
 
 // 2. Your age as a number
